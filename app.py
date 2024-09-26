@@ -7,7 +7,6 @@ from flask import Flask, request, jsonify, session
 
 # model import
 from model.git_base_model import generate_captions_git_base  # Import from git_large_model.py
-import streamlit as st
 from PIL import Image
 import requests
 from io import BytesIO
